@@ -59,7 +59,7 @@ I would like to make this card-component as a template which can be easily conne
 
 ## Author
 
-- Website - [Shivam Kumar](#)
+- - [Shivam Kumar](#)
 
 ## Acknowledgments
 
