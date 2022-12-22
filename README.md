@@ -29,9 +29,9 @@ Users should be able to:
 
 ### Screenshot
 #### At Desktop
-![](./images/image-product-desktop.jpg)
+![](./design/desktop-design.jpg)
 #### At Mobile
-![](./images/image-product-mobile.jpg)
+![](./design/mobile-design.jpg)
 ### Links
 
 - Live Site URL: [Add live site URL here](https://itsme-shivamkumar.github.io/Product-preview-card-Perfume-/)
