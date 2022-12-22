@@ -1,11 +1,12 @@
-# Front-end Style Guide
+# Fonts and color scheme used:
 
 ## Layout
 
 The designs were created to the following widths:
 
-- Mobile: 375px
-- Desktop: 1440px
+- Mobile: 375px-800px
+- Tablet: 800px-1450px
+- Desktop: 1450px+
 
 ## Colors
 
@@ -19,12 +20,6 @@ The designs were created to the following widths:
 - Very dark blue: hsl(212, 21%, 14%)
 - Dark grayish blue: hsl(228, 12%, 48%)
 - White: hsl(0, 0%, 100%)
-
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 14px
 
 ### Font
 

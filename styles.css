@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+header{
+    height: 96vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 40vw;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+}
+
+.productImage .mobile{
+    display: none;
+}
+.productImage img{
+    height: 60vh;
+       
+    border-radius: 12px 0 0 12px; 
+}
+
+.productDetail{
+    display: flex;
+    flex-direction: column;
+    margin: 26px;
+}
+
+.productCategory{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: hsl(228, 12%, 48%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.productName{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    font-size: 36px;
+    margin-top: 8px;
+}
+
+.productDes{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 12px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.prices{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.productSP{
+    font-family: 'Fraunces', serif;
+    font-size:32px;
+    color:hsl(158, 36%, 37%);
+}
+
+.productCP{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: small;
+    margin: 10px 0 0 16px;
+    align-items: center;
+    text-decoration: line-through;
+}
+
+.productCart{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 22px;
+    border-radius: 12px;
+    text-align: top;
+    cursor: pointer;
+    padding: 16px;
+    background-color: rgb(8, 65, 52);
+    color: white;
+}
+
+.productCart img{
+    margin-right: 5px;
+}
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width:1450px) {
+   .card{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: auto;
+   }
+   .productImage img{
+    width: 30vw;
+    height: auto;
+    border-radius: 12px 12px 0 0;
+   }
+   .productImage .mobile{
+    display: inline-flex;
+   }
+   .productImage .desktop{
+    display: none;
+   }
+   .productCategory{
+    font-size: 8px;
+   }
+   .productName{
+    font-size: 22px;
+   }
+   .productDes{
+    font-size: 10px;
+   }
+   .productSP{
+    font-size: 25px;
+   }
+}
+
+@media screen and (max-width:800px) {
+    .card{
+     width: 40vw;
+     height: auto;
+    }
+    .productImage img{
+     width: 40vw;
+    }
+ }
+
+ @media screen and (max-width:600px) {
+    .card{
+     width: 50vw;
+     height: auto;
+    }
+    .productImage img{
+     width: 50vw;
+    }
+ }
+
+ @media screen and (max-width:500px) {
+    .card{
+     width: 70vw;
+     height: auto;
+    }
+    .productImage img{
+     width: 70vw;
+    }
+ }
